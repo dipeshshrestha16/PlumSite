@@ -113,7 +113,7 @@ export default function Home() {
             ))}
           </nav>
           <a
-            href="tel:+15550191324"
+            href="#contact"
             className="primary-gradient rounded-full px-5 py-3 text-sm font-extrabold text-white transition hover:scale-[1.02]"
           >
             Emergency Call
@@ -252,7 +252,7 @@ export default function Home() {
               </label>
               <label className="grid gap-2 text-sm font-bold text-[#102A43]">
                 Phone
-                <input className="focus-field rounded-[12px] border border-[#d1d5db] bg-white px-4 py-3 text-base font-medium" placeholder="(555) 019-1324" />
+                <input className="focus-field rounded-[12px] border border-[#d1d5db] bg-white px-4 py-3 text-base font-medium" placeholder="Your phone number" />
               </label>
             </div>
             <label className="grid gap-2 text-sm font-bold text-[#102A43]">
@@ -306,11 +306,11 @@ export default function Home() {
           <div>
             <h3 className="font-extrabold">Contact Info</h3>
             <div className="mt-4 grid gap-3 text-white/80">
-              <a href="tel:+15550191324" className="flex gap-3 hover:text-white">
-                <i className="fa-solid fa-phone mt-1 text-secondary" aria-hidden="true" /> (555) 019-1324
-              </a>
-              <a href="mailto:service@flowguardplumbing.com" className="flex gap-3 hover:text-white">
-                <i className="fa-solid fa-envelope mt-1 text-secondary" aria-hidden="true" /> service@flowguardplumbing.com
+              <div className="flex gap-3">
+                <i className="fa-solid fa-phone mt-1 text-secondary" aria-hidden="true" /> Telephone number
+              </div>
+              <a href="mailto:reach@bigroostech.com" className="flex gap-3 hover:text-white">
+                <i className="fa-solid fa-envelope mt-1 text-secondary" aria-hidden="true" /> reach@bigroostech.com
               </a>
               <div className="flex gap-3">
                 <i className="fa-solid fa-location-dot mt-1 text-secondary" aria-hidden="true" /> 214 Riverside Drive, Austin, TX
